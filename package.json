@@ -1,0 +1,33 @@
+{
+  "name": "@is-a-dev/cli",
+  "version": "2.0.0",
+  "description": "Register your own is-a.dev subdomain from your command line!",
+  "main": "src/index.js",
+  "bin": {
+    "is-a-dev": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdhdev/is-a-dev-cli.git"
+  },
+  "keywords": [],
+  "author": "William Harrison <william@williamharrison.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdhdev/is-a-dev-cli/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/@is-a-dev/cli",
+  "dependencies": {
+    "@octokit/auth-oauth-device": "^4.0.4",
+    "@octokit/core": "^4.2.0",
+    "axios": "^1.3.4",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^3.1.0",
+    "cli-welcome": "^2.2.2",
+    "conf": "^10.2.0",
+    "js-base64": "^3.7.2",
+    "meow": "^9.0.0",
+    "node-fetch": "^2.6.7",
+    "prompts": "^2.4.2"
+  }
+}
