@@ -52,7 +52,7 @@ let fullContent = `{
         "email": "${email}"
     },
 
-    "records": {
+    "record": {
         "${recordType}": ${recordValue}
     }
 }
